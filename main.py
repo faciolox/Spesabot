@@ -2,7 +2,7 @@ from datetime import datetime
 import my_struct
 import json
 from telegram.ext import Updater, CommandHandler, MessageHandler, ConversationHandler, Filters
-TOKEN = "6322914505:AAGlehC0gVK7seqlU-rKPGfbU7xHR7_8fDg"
+TOKEN = "INSERT YOUR TOKEN HERE"
 WAITING, ENTER_ITEM_TO_REMOVE = range(2)
 
 def add_to_shoppinglist(obj: my_struct.ogg, items: dict) -> dict:
